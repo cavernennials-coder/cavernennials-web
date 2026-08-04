@@ -9,6 +9,11 @@
 </head>
 <body>
 
+<div class="glow-layer">
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+</div>
+
 <header class="site-header">
   <div class="wrap">
     <a href="index.html" class="brand">
@@ -27,7 +32,7 @@
 
 <section class="hero">
   <div class="wrap">
-    <span class="eyebrow">Podcast semanal · en español</span>
+    <span class="eyebrow"><span class="dot"></span>Podcast semanal · en español</span>
     <h1>Cavernennials</h1>
     <p class="tagline">El podcast de las historias de origen — cavernícolas de este milenio, con humor, nostalgia y una conversación nueva cada semana.</p>
     <div class="hero-actions">
@@ -55,6 +60,21 @@
     </div>
   </div>
 </section>
+
+<!-- Decorativo: todo lo que dice ya aparece en el hero, así que se oculta
+     a lectores de pantalla en vez de repetirlo ocho veces. -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>★ Nuevo episodio cada semana</span>
+    <span>★ Historias de origen, sin filtro</span>
+    <span>★ Cavernícolas de este milenio</span>
+    <span>★ Escúchanos en todas las plataformas</span>
+    <span>★ Nuevo episodio cada semana</span>
+    <span>★ Historias de origen, sin filtro</span>
+    <span>★ Cavernícolas de este milenio</span>
+    <span>★ Escúchanos en todas las plataformas</span>
+  </div>
+</div>
 
 <section id="ultimo-episodio">
   <div class="wrap">
@@ -170,6 +190,16 @@
     </div>
   </div>
 </section>
+
+<div class="sponsor-strip">
+  <div class="wrap">
+    <span class="label">Con el apoyo de</span>
+    <a class="logos" href="sponsors.html">
+      <img src="assets/sponsor-bebrave.png" alt="Be Brave Brands and Productions">
+    </a>
+    <a class="cta" href="sponsors.html">Quiero ser sponsor →</a>
+  </div>
+</div>
 
 <footer>
   <div class="wrap">

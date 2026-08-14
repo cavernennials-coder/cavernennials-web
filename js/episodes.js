@@ -25,5 +25,7 @@ window.CAVERNENNIALS_EPISODES = [
   { num: 'Epi. 14',  title: 'Tu pasado no define tu futuro',                         guest: 'Con Frankie Vázquez', id: 'J43zI43goB8' },
   { num: 'Epi. 15',  title: 'Dejó su carrera atrás para empezar de cero',            guest: 'Con Ana María Díaz',  id: '8eBwjIwq9l8' },
   { num: 'Epi. 16',  title: 'La decisión que triplicó sus ventas',                   guest: 'Con CBShaper',        id: 'OyL-z6XJOS0' },
-  { num: 'Epi. 17',  title: 'Deja de llorar y haz algo: valentía sin filtro',        guest: 'Con Sharis',          id: 'y7N5WozFHuc' }
+  { num: 'Epi. 17',  title: 'Deja de llorar y haz algo: valentía sin filtro',        guest: 'Con Sharis',          id: 'y7N5WozFHuc' },
+  { num: 'Epi. 18',  title: 'La casa pasó la inspección y se caía a pedazos',        guest: 'Con Karen Sáez',      id: 'snUo7J0Jp9U' },
+  { num: 'Epi. 19',  title: 'Llegó a pesar 300 libras y hoy vive del fitness',       guest: 'Con Zuyen Perez',     id: '1_VB0Olq4io' }
 ];
